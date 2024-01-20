@@ -1,0 +1,35 @@
+﻿/* RecipesPage.css */
+
+.recipe-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* Adjust the gap between recipe items */
+}
+
+.recipe-item {
+    width: calc(15.33% - 16px); /* Adjust the width of each recipe item */
+    margin-bottom: 16px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    padding: 16px;
+    border: 1px solid #ccc;
+    transition: transform 0.2s;
+}
+
+    .recipe-item:hover {
+        transform: scale(1.05);
+    }
+
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.recipe-details {
+    text-align: center;
+}
+
+.recipe-name {
+    font-size: 16px;
+    margin-top: 8px;
+}

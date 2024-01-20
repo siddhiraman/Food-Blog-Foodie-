@@ -1,0 +1,15 @@
+﻿/* MustTryItemDetailPage.css */
+.must-try-item-detail {
+    text-align: center;
+}
+
+    .must-try-item-detail img {
+        max-width: 100%;
+        max-height: 400px; /* Adjust the maximum height as needed */
+        object-fit: contain;
+    }
+
+    .must-try-item-detail p {
+        font-size: 16px;
+        line-height: 1.5;
+    }

@@ -1,0 +1,52 @@
+﻿/* AboutUsPage.css */
+.about-us {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 90vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+/* AboutUsPage.css */
+.about-us {
+    margin-top: 505px; /* Adjust the value as needed */
+}
+
+/* Rest of your CSS styles */
+
+.about-image {
+    /* Set your background image here */
+    background: url('https://images6.alphacoders.com/102/1024930.jpg') center/cover no-repeat;
+}
+
+.about-content {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .about-content h2 {
+        text-transform: uppercase;
+        font-size: 36px;
+        letter-spacing: 6px;
+        opacity: 0.9;
+    }
+
+    .about-content .line {
+        height: 0.5px;
+        width: 80px;
+        background: #777;
+        margin: 30px 0;
+    }
+
+    .about-content p {
+        padding-bottom: 15px;
+        font-weight: 300;
+        opacity: 0.7;
+        width: 60%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.7;
+    }

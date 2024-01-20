@@ -1,0 +1,43 @@
+﻿/* UserSidebar.css */
+
+.user-sidebar {
+    position: fixed;
+    top: 56px; /* Adjust this value to match your navbar's height */
+    right: 0; /* Position the sidebar on the right side */
+    background-color: #fff; /* Add your desired background color */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2); /* Change the horizontal shadow direction to -2px */
+    overflow-y: auto;
+    transition: right 0.3s ease-in-out; /* Change to 'right' for transition */
+    z-index: 9999;
+    height: calc(100% - 56px); /* Adjust the height to fill the remaining space */
+    max-height: 35%; /* Ensure the sidebar does not exceed the viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+.user-sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+    overflow-y: auto; /* Add vertical scrolling to the list */
+    flex-grow: 1; /* Allow the list to grow and take the available space */
+}
+
+.user-sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold; /* Make the text bold */
+    color: black; /* Set the text color to black */
+    border-bottom: 1px solid #ccc; /* Add a gray border at the bottom of each item */
+    display: flex; /* Display items one below the other */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.user-sidebar ul li:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+}
+
+.user-sidebar ul li:hover {
+    background-color: #f0f0f0; /* Add your desired hover background color */
+}
